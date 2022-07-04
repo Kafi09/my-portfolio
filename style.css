@@ -11,7 +11,7 @@ span {
     color: #FFA500;
 }
 
-section {
+.flexible {
     display: flex;
     padding-bottom: 100px;
 }
@@ -21,6 +21,7 @@ section {
     padding-left: 5%;
     text-align: justify;
 }
+
 
 .half-width img {
     width: 100%;
@@ -41,9 +42,44 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 }
-.dream-big{
+
+.dream-big {
     padding-right: 10%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.exp-item {
+    width: 40%;
+    padding-left: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.exp-item h1 {
+    text-align: left;
+    font-size: 35px;
+}
+
+.exp-item p {
+    padding-right: 20px;
+}
+
+.exp-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px;
+}
+
+#exp-1 {
+    border-left: 7px solid #FF6347;
+}
+
+#exp-2 {
+    border-left: 7px solid #0000FF;
 }
