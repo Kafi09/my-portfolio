@@ -83,3 +83,8 @@ span {
 #exp-2 {
     border-left: 7px solid #0000FF;
 }
+
+footer p {
+    text-align: center;
+    color: #777069;
+}
