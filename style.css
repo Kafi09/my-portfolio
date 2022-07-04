@@ -1,0 +1,30 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+span {
+    color: #FFA500;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    width: 70%;
+    padding-left: 5%;
+    text-align: justify;
+}
+
+.half-width img {
+    width: 100%;
+    padding-left: 5%;
+}
+.hire{
+    background-color: #FF8E6B;
+    
+}
